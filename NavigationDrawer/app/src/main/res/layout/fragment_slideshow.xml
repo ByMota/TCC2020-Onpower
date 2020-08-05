@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/btnDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minha conta"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:fontFamily="@font/segoeui"
+        android:background="@color/Branco"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/preto"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/segoeui"
+        android:layout_gravity="start"
+        android:background="@color/Branco" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/preto"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:fontFamily="@font/segoeui"
+        android:background="@color/Branco" />
+</LinearLayout>

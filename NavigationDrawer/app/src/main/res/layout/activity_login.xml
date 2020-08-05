@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.dados_login_cad.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundologin"
+   >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/Branco"
+        android:layout_marginLeft="50dp"
+        android:text="Usúario"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="Digite seu login"
+        android:drawablePadding="10dp"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_login"
+        android:maxEms="12"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_usuario" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="18sp"
+        android:textColor="@color/Branco"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="51dp"
+        />
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:maxLines="1"
+            android:background="@drawable/edit_login"
+            android:maxEms="12"
+            android:ems="12"
+            android:padding="6dp"
+            android:hint="Digite sua senha"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_https_24px"
+            />
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:ems="7"
+        android:fontFamily="@font/segoeui"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="@color/Branco"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="20dp"
+        android:padding="6dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="36dp"
+            android:text="Esqueceu sua senha? Clique"
+            android:textColor="@color/Branco"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMudarSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="36dp"
+            android:text="aqui"
+            android:textSize="15sp"
+            android:textColor="@color/Branco"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

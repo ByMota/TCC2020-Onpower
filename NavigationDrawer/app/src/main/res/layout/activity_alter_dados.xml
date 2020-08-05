@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.dados_login_cad.AlterDadosActivity"
+    android:orientation="vertical"
+    android:background="@drawable/degrade_menu2"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Dados"
+        android:textColor="@color/Branco"
+        android:textSize="22sp"/>
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+       android:background="#494949"/>
+
+    <EditText
+        android:id="@+id/editarNome"
+        android:layout_width="wrap_content"
+        android:layout_height="95px"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Digite seu nome"
+        android:paddingLeft="4dp" />
+    <EditText
+        android:id="@+id/editarEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="95px"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu email"
+        android:paddingLeft="4dp"/>
+
+    <Button
+        android:id="@+id/btnAlterarDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Alteração"
+        android:fontFamily="@font/segoeui"
+        android:background="@drawable/spinner"
+        android:textColor="@color/Branco"
+        android:layout_marginTop="30dp"
+        android:ems="9"/>
+
+</LinearLayout>

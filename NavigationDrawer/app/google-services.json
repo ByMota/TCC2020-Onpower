@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "664070014667",
+    "firebase_url": "https://mywaysports-tcc.firebaseio.com",
+    "project_id": "mywaysports-tcc",
+    "storage_bucket": "mywaysports-tcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664070014667:android:547750d08bf1edf7053d4e",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664070014667-7jor0jlv9v8rqhrdvko2855i7beeb034.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.navigationdrawer",
+            "certificate_hash": "f0aae83e61ca7ac460b2625b6772a8260ea090e6"
+          }
+        },
+        {
+          "client_id": "664070014667-17bo0qcuarvk8lrm70fosvdq3e7lrr3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC20TwmXuFez8PIBgU_3_8wQPr-yLCWQEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664070014667-17bo0qcuarvk8lrm70fosvdq3e7lrr3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

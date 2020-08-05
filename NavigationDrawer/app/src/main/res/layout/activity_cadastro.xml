@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.dados_login_cad.CadastroActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@drawable/degrade_menu2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:fontFamily="@font/segoeui"
+        android:textColor="@color/Branco"
+        android:textSize="22sp"/>
+    <View
+        android:layout_width="110dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#494949"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:hint="Digite seu nome"
+        android:paddingLeft="15dp" />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu email"
+        android:paddingLeft="4dp"/>
+    <EditText
+        android:id="@+id/editTextDtNasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="date"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Digite sua data de nascimento"
+        />
+    <EditText
+        android:id="@+id/editTextCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu cpf"
+        android:paddingLeft="4dp"/>
+    <EditText
+        android:id="@+id/editTextCel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="phone"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Digite o seu celular"
+        android:paddingLeft="4dp"/>
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="digite sua senha"
+        android:paddingLeft="4dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/edit_login"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu cep"
+        android:paddingLeft="4dp"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:ems="7"
+        android:fontFamily="@font/segoeui"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="@color/Branco"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="40dp"
+        android:padding="6dp" />
+
+</LinearLayout>
